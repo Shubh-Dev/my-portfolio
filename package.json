@@ -19,7 +19,7 @@
   "homepage": "https://github.com/Shubh-Dev/portfolio-setup#readme",
   "devDependencies": {
     "hint": "^6.1.9",
-    "stylelint": "^14.4.0",
+    "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
