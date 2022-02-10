@@ -36,14 +36,13 @@ a {
 }
 
 .showcase {
-  border: 1px dashed red;
   border-bottom-left-radius: 100px;
+  margin-bottom: 10vh;
 }
 
 .hero {
   width: 60%;
   margin: auto;
-  border: 1px dashed blue;
 }
 
 .hero h1 {
@@ -56,8 +55,13 @@ a {
   margin-top: 0.25vh;
 }
 
+.connect {
+  color: rgb(75, 75, 216);
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
 .showcase-2 {
-  border: 1px dashed red;
   min-height: 50vw;
 }
 
@@ -73,4 +77,8 @@ a {
   display: flex;
   justify-content: space-between;
   margin-top: 18vh;
+}
+
+.social-icon img {
+  padding-right: 11px;
 }
