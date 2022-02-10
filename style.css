@@ -1,12 +1,12 @@
+body {
+  font: 16px/1.5 Arial, Helvetica, sans-serif;
+}
+
 * {
   text-decoration: none;
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-body {
-  font: 16px/1.5 Arial, Helvetica, sans-serif;
 }
 
 header {
