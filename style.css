@@ -22,6 +22,7 @@ header {
   margin: auto;
   padding-top: 15px;
   width: 80%;
+  height: auto;
   display: flex;
   justify-content: space-between;
 }
@@ -62,7 +63,7 @@ a {
 }
 
 .showcase-2 {
-  min-height: 50vw;
+  height: 99%;
 }
 
 .image-1 {
@@ -81,4 +82,43 @@ a {
 
 .social-icon img {
   padding-right: 11px;
+}
+
+@media (max-width: 768px) {
+  header #branding,
+  header nav,
+  header nav li {
+    float: none;
+    width: 100%;
+  }
+
+  header {
+    min-height: 110px;
+  }
+
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header nav {
+    padding-top: 20px;
+  }
+
+  .image-1 img {
+    width: 10vh;
+  }
+
+  body {
+    text-align: center;
+  }
+
+  .image-2 {
+    width: 80%;
+    margin: 30px auto auto auto;
+  }
+
+  .hero {
+    margin-top: 50px;
+  }
 }
