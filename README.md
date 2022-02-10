@@ -7,7 +7,7 @@ This Project is an initial experiment of creating an excellent personal portfoli
 
 ![Screenshot_2022-02-10_15-27-29](https://user-images.githubusercontent.com/46110284/153383527-51d059de-2f17-4c4c-9c61-ef4d24b9b79d.png)
 
-</hr>
+<hr>
 
 ![Screenshot_2022-02-10_15-28-50](https://user-images.githubusercontent.com/46110284/153383650-543d63eb-20fe-414c-ac7c-2d7017ee3e0a.png)
 
