@@ -1,5 +1,6 @@
 body {
   font: 16px/1.5 Arial, Helvetica, sans-serif;
+  background-color: #f8f8f8;
 }
 
 * {
@@ -30,6 +31,7 @@ body {
   height: auto;
   display: flex;
   justify-content: space-between;
+  background-color: white;
 }
 
 .showcase {
@@ -42,6 +44,7 @@ body {
   margin: auto auto 10vh auto;
   background-image: url(./images/header-shapes-mobile.svg);
   background-repeat: no-repeat;
+  background-color: white;
 }
 
 .showcase h1 {
@@ -65,4 +68,31 @@ h4 {
 .social-icon li {
   display: inline;
   padding-right: 15px;
+}
+
+.project-1 {
+  width: 92%;
+  margin: 15vh auto 15vh auto;
+  display: grid;
+  grid-template-rows: max-content;
+  row-gap: 10px;
+}
+
+.main-skill ul {
+  display: flex;
+  flex-direction: row;
+  margin: 8px auto;
+}
+
+.main-skill ul li {
+  padding-right: 10px;
+}
+
+button {
+  width: 130px;
+  height: 60px;
+  background-color: white;
+  color: royalblue;
+  border: 1px solid royalblue;
+  border-radius: 3px;
 }
