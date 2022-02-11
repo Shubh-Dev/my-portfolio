@@ -89,10 +89,11 @@ h4 {
 }
 
 button {
-  width: 130px;
+  width: 30%;
   height: 60px;
   background-color: white;
   color: royalblue;
   border: 1px solid royalblue;
   border-radius: 3px;
+  font-size: 90%;
 }
