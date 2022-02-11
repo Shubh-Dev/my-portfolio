@@ -48,6 +48,8 @@ body {
   font-size: 50px;
   font-weight: bold;
   line-height: normal;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .showcase p {
