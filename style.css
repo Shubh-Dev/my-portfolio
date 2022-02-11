@@ -1,0 +1,68 @@
+body {
+  font: 16px/1.5 Arial, Helvetica, sans-serif;
+}
+
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#branding a {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(75, 75, 216);
+}
+
+.line {
+  width: 18px;
+  height: 2px;
+  background-color: rgb(75, 75, 216);
+  margin: 5px 0;
+  border-radius: 2px;
+}
+
+.container {
+  margin: auto;
+  padding-top: 40px;
+  width: 92%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 92%;
+  padding-top: 100px;
+  border-bottom-left-radius: 100px;
+  margin: auto auto 10vh auto;
+  background-image: url(./images/header-shapes-mobile.svg);
+  background-repeat: no-repeat;
+}
+
+.showcase h1 {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: normal;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.showcase p {
+  margin-top: 0.25vh;
+}
+
+h4 {
+  color: rgb(75, 75, 216);
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.social-icon li {
+  display: inline;
+  padding-right: 15px;
+}
