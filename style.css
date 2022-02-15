@@ -145,3 +145,9 @@ button:hover {
   padding: 103px 24px 115px 24px;
   
 }
+
+.text-contact {
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+}
