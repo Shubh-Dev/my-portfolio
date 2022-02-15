@@ -129,7 +129,7 @@ button:hover {
 }
 
 .contact-main {
-  background-image: url(../images/Contact-background.svg);
+  background-image: url(./images/Contact-background.svg);
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
@@ -146,8 +146,17 @@ button:hover {
   
 }
 
-.text-contact {
-  display: flex;
-  flex-direction: column;
- justify-content: center;
+.text-contact #contact-img {
+  margin-left: 35px;
+  padding-bottom: 20px;
+}
+
+.form {
+  margin-top: 30px;
+}
+
+.form ul{
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 15px;
 }
