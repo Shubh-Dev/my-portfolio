@@ -127,3 +127,21 @@ button:hover {
 .button-2 {
   margin-top: 25px;
 }
+
+.contact-main {
+  background-image: url(../images/Contact-background.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 103px;
+  width: 375px;
+  height: 779px;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 103px 24px 115px 24px;
+  
+}
