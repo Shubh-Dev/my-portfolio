@@ -129,7 +129,7 @@ button:hover {
 }
 
 .contact-main {
-  background-image: url(../images/Contact-background.svg);
+  background-image: url(./images/Contact-background.svg);
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
@@ -146,7 +146,7 @@ button:hover {
   
 }
 
-.text-contact {
+.text-contact img{
   display: flex;
   flex-direction: column;
  justify-content: center;
