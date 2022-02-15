@@ -30,7 +30,7 @@ This Project is an initial experiment of creating an excellent personal portfoli
 
 <hr>
 
-![Screenshot_2022-02-15_20-59-10](https://user-images.githubusercontent.com/46110284/154093907-21b35c33-9724-4ddd-bbfb-aeb585f24954.png)
+![Screenshot_2022-02-15_22-36-38](https://user-images.githubusercontent.com/46110284/154112499-11c15778-106b-4af3-9d05-124be8b916a7.png)
 
 
 ## Built with-

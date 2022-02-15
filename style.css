@@ -133,6 +133,10 @@ button:hover {
   border-top-left-radius: 120px;
   background-color: #6070FF;
   margin-top: 103px auto 40px auto;
+  background-image:url(./images/contact-shape.svg);
+  background-repeat: no-repeat;
+  background-size: 70% 100%;
+  background-position-x: right;
 }
 
 .contact-me {
@@ -140,7 +144,7 @@ button:hover {
   height: auto;
   display: flex;
   flex-direction: column;
-  padding-top: 130px;
+  padding-top: 160px;
   margin: auto;
 }
 
