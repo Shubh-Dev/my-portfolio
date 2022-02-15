@@ -131,9 +131,8 @@ button:hover {
 .contact-main {
   width: 100%;
   border-top-left-radius: 120px;
-  background-color: #6070FF;
-  margin-top: 103px auto 40px auto;
-  background-image:url(./images/contact-shape.svg);
+  background-color: #6070ff;
+  background-image: url(./images/contact-shape.svg);
   background-repeat: no-repeat;
   background-size: 70% 100%;
   background-position-x: right;
@@ -147,7 +146,6 @@ button:hover {
   padding-top: 160px;
   margin: auto;
 }
-
 
 .text-contact {
   display: flex;
@@ -167,7 +165,7 @@ button:hover {
   margin-top: 60px;
 }
 
-.form ul{
+.form ul {
   display: grid;
   grid-template-rows: auto;
   row-gap: 15px;
@@ -175,18 +173,18 @@ button:hover {
   margin: auto;
 }
 
-input[type=text], input[type=email] {
+input[type=text] input[type=email] {
   width: 88vw;
   height: 48px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 8px;
 }
 
 textarea {
-  width: 88vw; 
+  width: 88vw;
   height: 170px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin: auto;
   padding: 8px;
@@ -197,7 +195,7 @@ input[type=submit] {
   border-radius: 8px;
   border: none;
   padding: 12px 16px;
-  color: #6070FF;
+  color: #6070ff;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
@@ -205,12 +203,10 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color:#5eda72;
-  
+  background-color: #5eda72;
 }
 
-.line-1 img{
+.line-1 img {
   margin: auto;
   padding-left: 120px;
 }
-
