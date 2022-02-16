@@ -34,7 +34,6 @@ body {
   height: auto;
   display: flex;
   justify-content: space-between;
-  background-color: white;
 }
 
 .showcase {
@@ -48,7 +47,6 @@ body {
   background-image: url(./images/header-shapes-mobile.svg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-color: white;
 }
 
 .showcase h1 {
@@ -215,7 +213,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #5eda72;
+  background-color: #6075ad;
 }
 
 .line-1 img {
@@ -226,12 +224,11 @@ input[type=submit]:hover {
 @media (min-width: 922px) {
   .nav-img img {
     visibility: visible;
-    margin-left: 20vw;
   }
 
   .hamburger {
     visibility: hidden;
-    margin-left: -70vw;
+    margin-left: -60vw;
   }
 
   .showcase {
@@ -249,30 +246,70 @@ input[type=submit]:hover {
   .project-title-1 {
     display: flex;
     justify-content: center;
-    width: 90%;
-    margin: auto;
+    width: 65%;
+    margin: 5vh auto;
+    background-color: #f8f8f8;
+    padding-top: 20px;
+    border-radius: 10px;
   }
 
-  #sidebar {
+  .sidebar {
     display: grid;
     grid-auto-rows: min-content;
     row-gap: -0.25vh;
-    margin-top: 20px;
   }
 
   .project-title-2 {
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
-    width: 90%;
-    margin: auto;
+    width: 65%;
+    margin: 5vh auto;
+    background-color: #f8f8f8;
+    padding-top: 20px;
+    border-radius: 10px;
   }
 
   .grid-1 {
-    flex: 0 1 auto;
+    padding: 0 2vw;
   }
 
   aside {
-    flex: 0 1 auto;
+    padding: 0 2vw;
+  }
+
+  .main-headline img {
+    width: 70px;
+    height: auto;
+  }
+
+  .main-text img {
+    width: auto;
+    height: 30px;
+  }
+
+  .main-role img {
+    width: auto;
+    height: 25px;
+  }
+
+  .showcase-2 {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .sidebar h2 {
+    font-size: 25px;
+    margin-top: 30px;
+  }
+
+  .contact-me {
+    width: 25%;
+  }
+
+  .form ul li {
+    width: 35%;
   }
 }
