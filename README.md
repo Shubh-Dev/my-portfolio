@@ -3,6 +3,7 @@
 ## Description-
 This Project is an initial experiment of creating an excellent personal portfolio for a Software developer. An excellent portfolio is one of the most effective tools for a software developer. It is the easiest way to showcase one's projects and abilities. The designs and the content of this project are tried to keep simple yet elegant.
 
+
 ## Screenshots-
 
 ![Screenshot_2022-02-10_23-53-46](https://user-images.githubusercontent.com/46110284/153472460-00955092-bde4-4b05-8cff-a42b6ee7b7cd.png)
@@ -31,6 +32,24 @@ This Project is an initial experiment of creating an excellent personal portfoli
 <hr>
 
 ![Screenshot_2022-02-15_22-36-38](https://user-images.githubusercontent.com/46110284/154112499-11c15778-106b-4af3-9d05-124be8b916a7.png)
+
+# Desktop version screenshots-
+
+![Screenshot_2022-02-16_23-06-41](https://user-images.githubusercontent.com/46110284/154323814-f68a06a1-961d-4892-b843-dbb440622ca4.png)
+
+<hr>
+
+![Screenshot_2022-02-16_23-07-13](https://user-images.githubusercontent.com/46110284/154323958-742ab739-038e-479e-81a7-2c90bda45eb6.png)
+
+<hr>
+
+![Screenshot_2022-02-16_23-07-39](https://user-images.githubusercontent.com/46110284/154324078-6b677d91-e9f1-4c74-a47c-e69b2175e903.png)
+
+<hr>
+
+
+![Screenshot_2022-02-16_23-08-00](https://user-images.githubusercontent.com/46110284/154324177-44271f8b-9772-4fe4-b5c9-b8f266eb3037.png)
+
 
 
 ## Built with-
