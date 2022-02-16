@@ -15,6 +15,10 @@ body {
   color: rgb(75, 75, 216);
 }
 
+.nav-img img {
+  visibility: hidden;
+}
+
 .line {
   width: 18px;
   height: 2px;
@@ -40,7 +44,7 @@ body {
   width: 92%;
   padding-top: 100px;
   border-bottom-left-radius: 100px;
-  margin: auto auto 10vh auto;
+  margin: auto auto 30vh auto;
   background-image: url(./images/header-shapes-mobile.svg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -61,7 +65,7 @@ body {
 
 h4 {
   color: rgb(75, 75, 216);
-  margin-bottom: 10px;
+  margin-bottom: 18px;
   font-weight: bold;
 }
 
@@ -212,4 +216,28 @@ input[type=submit]:hover {
 .line-1 img {
   margin: auto;
   padding-left: 120px;
+}
+
+@media (min-width: 922px) {
+  .nav-img img {
+    visibility: visible;
+    margin-left: 20vw;
+  }
+
+  .hamburger {
+    visibility: hidden;
+    margin-left: -52vw;
+  }
+
+  .showcase {
+    background-image: url(./images/desktop-eaderBg.svg);
+    background-size: 100% 100%;
+  }
+
+  section .box-1 {
+    width: 70%;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+  }
 }
