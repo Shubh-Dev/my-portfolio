@@ -28,6 +28,10 @@ This Project is an initial experiment of creating an excellent personal portfoli
 
 ![Screenshot_2022-02-11_19-08-25](https://user-images.githubusercontent.com/46110284/153602011-f4b5fc3a-2b5a-4ae7-ab90-84807267063f.png)
 
+<hr>
+
+![Screenshot_2022-02-15_22-36-38](https://user-images.githubusercontent.com/46110284/154112499-11c15778-106b-4af3-9d05-124be8b916a7.png)
+
 
 ## Built with-
 - htlm
