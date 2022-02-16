@@ -42,6 +42,7 @@ body {
   border-bottom-left-radius: 100px;
   margin: auto auto 10vh auto;
   background-image: url(./images/header-shapes-mobile.svg);
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-color: white;
 }
@@ -130,6 +131,7 @@ button:hover {
 
 .contact-main {
   width: 100%;
+  height: auto;
   border-top-left-radius: 120px;
   background-color: #6070ff;
   background-image: url(./images/contact-shape.svg);
@@ -139,11 +141,11 @@ button:hover {
 }
 
 .contact-me {
-  width: 92%;
-  height: auto;
   display: flex;
   flex-direction: column;
-  padding-top: 160px;
+  width: 92%;
+  height: auto;
+  padding-top: 200px;
   margin: auto;
 }
 
@@ -173,7 +175,8 @@ button:hover {
   margin: auto;
 }
 
-input[type=text] input[type=email] {
+input[type=text],
+input[type=email] {
   width: 88vw;
   height: 48px;
   border: 1px solid #cfd8dc;
