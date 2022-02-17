@@ -1,4 +1,4 @@
-# portfolio-setup: A personal portfolio for a web-developer.
+# portfolio-setup: A personal portfolio for a web-developer-.
 
 ## Description-
 This Project is an initial experiment of creating an excellent personal portfolio for a Software developer. An excellent portfolio is one of the most effective tools for a software developer. It is the easiest way to showcase one's projects and abilities. The designs and the content of this project are tried to keep simple yet elegant.
