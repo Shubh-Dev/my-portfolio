@@ -106,7 +106,9 @@ button {
 }
 
 button:hover {
-  background-color: aqua;
+  background-color: rgb(166, 113, 252);
+  font-weight: bolder;
+  color: #fff;
 }
 
 .showcase-2 {
@@ -213,7 +215,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #6075ad;
+  background-color: #79f798;
+  color: #fff;
 }
 
 .line-1 img {
