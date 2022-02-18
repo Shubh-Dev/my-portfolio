@@ -336,4 +336,8 @@ input[type=submit]:hover {
     transition-duration: 1.5s;
     transition-timing-function: ease-out;
   }
+
+  .main-image img:hover {
+    transform: scale(1.1);
+  }
 }
