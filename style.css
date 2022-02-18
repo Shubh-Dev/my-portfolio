@@ -330,4 +330,10 @@ input[type=submit]:hover {
     position: relative;
     margin-left: 5em;
   }
+
+  #branding:hover {
+    transform: rotate(360deg);
+    transition-duration: 1.5s;
+    transition-timing-function: ease-out;
+  }
 }
