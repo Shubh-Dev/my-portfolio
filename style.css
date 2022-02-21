@@ -16,6 +16,7 @@ body {
 }
 
 .nav-img img {
+  width: 20px;
   visibility: hidden;
 }
 
@@ -106,7 +107,9 @@ button {
 }
 
 button:hover {
-  background-color: aqua;
+  background-color: rgb(166, 113, 252);
+  font-weight: bolder;
+  color: #fff;
 }
 
 .showcase-2 {
@@ -213,7 +216,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #6075ad;
+  background-color: #79f798;
+  color: #fff;
 }
 
 .line-1 img {
@@ -224,6 +228,9 @@ input[type=submit]:hover {
 @media (min-width: 922px) {
   .nav-img img {
     visibility: visible;
+    width: 220px;
+    height: 70px;
+    margin-top: -15px;
   }
 
   .hamburger {
@@ -326,5 +333,19 @@ input[type=submit]:hover {
     height: 50px;
     position: relative;
     margin-left: 5em;
+  }
+
+  #branding:hover {
+    transform: rotate(360deg);
+    transition-duration: 1.5s;
+    transition-timing-function: ease-out;
+  }
+
+  .main-image img:hover {
+    transform: scale(1.1);
+  }
+
+  #form-instruction:hover {
+    transform: translate(10px);
   }
 }
