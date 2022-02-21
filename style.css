@@ -16,6 +16,7 @@ body {
 }
 
 .nav-img img {
+  width: 20px;
   visibility: hidden;
 }
 
@@ -227,6 +228,9 @@ input[type=submit]:hover {
 @media (min-width: 922px) {
   .nav-img img {
     visibility: visible;
+    width: 220px;
+    height: 70px;
+    margin-top: -15px;
   }
 
   .hamburger {
