@@ -93,7 +93,7 @@ h4 {
 }
 
 .main-text p {
-  font-size: 1em;
+  font-size: 14px;
 }
 
 .main-skill ul li {
@@ -170,11 +170,20 @@ button:hover {
   justify-content: center;
 }
 
-.text-contact #contact-img {
+.text-contact h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+}
+
+.text-contact p {
   padding-bottom: 20px;
   width: 80%;
   height: auto;
   margin: auto;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
 }
 
 .form {
@@ -276,13 +285,6 @@ input[type=submit]:hover {
     border-radius: 10px;
   }
 
-  .sidebar {
-    display: grid;
-    grid-auto-rows: min-content;
-    row-gap: -0.25vh;
-    margin-top: -3vh;
-  }
-
   .project-title-2 {
     display: flex;
     justify-content: center;
@@ -291,17 +293,23 @@ input[type=submit]:hover {
     margin: 10vh auto;
     background-color: #f8f8f8;
     padding-top: 20px;
-    padding-left: 20px;
     border-radius: 10px;
+  }
+
+  .sidebar {
+    display: grid;
+    grid-auto-rows: min-content;
+    row-gap: -0.25vh;
+    margin-top: -5vh;
+    padding-left: 20px;
+  }
+
+  .button-1 {
+    margin-top: -5px;
   }
 
   .grid-1 {
     padding: 0 2vw;
-  }
-
-  .main-text img {
-    width: auto;
-    height: 30px;
   }
 
   .main-role img {
@@ -321,8 +329,12 @@ input[type=submit]:hover {
     margin-top: 30px;
   }
 
+  .button-2 img:hover {
+    transform: scale(1.09);
+  }
+
   .contact-me {
-    width: 25%;
+    width: 30%;
     padding-top: 12vh;
     padding-bottom: 5vh;
   }
