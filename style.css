@@ -15,7 +15,8 @@ body {
   color: rgb(75, 75, 216);
 }
 
-.nav-img img {
+nav ul {
+  display: flex;
   width: 20px;
   visibility: hidden;
 }
@@ -89,6 +90,10 @@ h4 {
   display: flex;
   flex-direction: row;
   margin: 8px auto;
+}
+
+.main-text p {
+  font-size: 12px;
 }
 
 .main-skill ul li {
@@ -226,16 +231,26 @@ input[type=submit]:hover {
 }
 
 @media (min-width: 922px) {
-  .nav-img img {
+  nav ul {
     visibility: visible;
-    width: 220px;
-    height: 70px;
-    margin-top: -15px;
+    float: right;
+  }
+
+  nav ul li {
+    padding-right: 30px;
+  }
+
+  nav ul li a {
+    color: #000;
+    font-size: 17px;
+  }
+
+  nav ul li a:hover {
+    color: #6070ff;
   }
 
   .hamburger {
-    visibility: hidden;
-    margin-left: -60vw;
+    margin-right: -55vw;
   }
 
   .showcase {
@@ -282,7 +297,7 @@ input[type=submit]:hover {
   }
 
   aside {
-    padding: 0 2vw;
+    padding: 10px 2vw;
   }
 
   .main-headline img {
