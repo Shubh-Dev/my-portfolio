@@ -6,7 +6,7 @@ This Project is an initial experiment of creating an excellent personal portfoli
 [Webpage Link ](https://shubh-dev.github.io/portfolio-setup)
 
 
-## Screenshots-
+## Screenshots-1
 
 ![Screenshot_2022-02-10_23-53-46](https://user-images.githubusercontent.com/46110284/153472460-00955092-bde4-4b05-8cff-a42b6ee7b7cd.png)
 <hr>
