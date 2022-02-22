@@ -93,7 +93,7 @@ h4 {
 }
 
 .main-text p {
-  font-size: 12px;
+  font-size: 1em;
 }
 
 .main-skill ul li {
@@ -250,7 +250,8 @@ input[type=submit]:hover {
   }
 
   .hamburger {
-    margin-right: -55vw;
+    visibility: hidden;
+    margin-left: -55vw;
   }
 
   .showcase {
@@ -279,6 +280,7 @@ input[type=submit]:hover {
     display: grid;
     grid-auto-rows: min-content;
     row-gap: -0.25vh;
+    margin-top: -3vh;
   }
 
   .project-title-2 {
@@ -289,20 +291,12 @@ input[type=submit]:hover {
     margin: 10vh auto;
     background-color: #f8f8f8;
     padding-top: 20px;
+    padding-left: 20px;
     border-radius: 10px;
   }
 
   .grid-1 {
     padding: 0 2vw;
-  }
-
-  aside {
-    padding: 10px 2vw;
-  }
-
-  .main-headline img {
-    width: 70px;
-    height: auto;
   }
 
   .main-text img {
