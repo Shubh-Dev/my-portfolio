@@ -9,6 +9,12 @@ body {
   padding: 0;
 }
 
+.main-header.active {
+  border: 1px dashed red;
+  height: 100vh;
+  background-color: #6070ff;
+}
+
 #branding a {
   font-size: 18px;
   font-weight: bold;
