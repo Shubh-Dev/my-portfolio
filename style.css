@@ -13,6 +13,7 @@ body {
   border: 1px dashed red;
   height: 100vh;
   background-color: #6070ff;
+  opacity: 1.20;
 }
 
 #branding a {
@@ -25,6 +26,15 @@ nav ul {
   display: flex;
   width: 20px;
   visibility: hidden;
+}
+
+#main-nav.active {
+  visibility: visible;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  color: white;
 }
 
 .line {
@@ -42,6 +52,10 @@ nav ul {
   height: auto;
   display: flex;
   justify-content: space-between;
+}
+
+.box-1 {
+  margin: 7vh auto 4vh auto;
 }
 
 .showcase {
