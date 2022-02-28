@@ -10,10 +10,14 @@ body {
 }
 
 .main-header.active {
-  border: 1px dashed red;
-  height: 100vh;
   background-color: #6070ff;
-  opacity: 1.20;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  opacity: 0.8;
 }
 
 #branding a {
@@ -22,19 +26,32 @@ body {
   color: rgb(75, 75, 216);
 }
 
-nav ul {
+.main-nav {
   display: flex;
-  width: 20px;
   visibility: hidden;
 }
 
-#main-nav.active {
+.my-logo.active {
+  margin-left: -18%;
+}
+
+.main-nav .link-1.active {
+  font-size: 100px;
+  color: #fff;
+}
+
+.main-nav.active {
   visibility: visible;
-  margin: auto;
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
   color: white;
+  height: 100vh;
+  width: 100vw;
+  border: 2px dashed red;
+}
+
+.bar.active {
+  margin: auto;
 }
 
 .line {
