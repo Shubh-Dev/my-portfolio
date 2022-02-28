@@ -6,6 +6,8 @@ popMenu.addEventListener('click', () => {
   myNavbar.classList.add('active');
   const myLogo = document.querySelector('.my-logo');
   myLogo.classList.add('active');
+  const crossBar = document.querySelector('.enable-icon');
+  crossBar.classList.add('active');
 });
 
 /* let navText = document.querySelector("hamburger");

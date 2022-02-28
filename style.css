@@ -15,8 +15,8 @@ body {
 
 .hamburger {
   position: absolute;
-  top: 45px;
-  right: 10px;
+  top: 40px;
+  right: 15px;
 }
 
 .main-header.active {
@@ -26,8 +26,8 @@ body {
   top: 0;
   right: 0;
   height: 100vh;
-  width: 100%;
-  opacity: 0.8;
+  width: 100vw;
+  opacity: 0.95;
 }
 
 #branding a {
@@ -41,10 +41,6 @@ body {
   visibility: hidden;
 }
 
-.my-logo.active {
-  display: none;
-}
-
 .main-nav.active {
   visibility: visible;
   display: flex;
@@ -52,24 +48,23 @@ body {
   color: white;
   height: 100vh;
   width: 100vw;
-  border: 2px dashed red;
   padding-left: 20px;
   padding-top: 20px;
 }
 
 .main-nav.active .link-1 {
-  font-size: 40px;
+  font-size: 35px;
   color: #fff;
 }
 
-.bar.active {
-  margin: auto;
+.my-logo.active {
+  display: none;
 }
 
 .line {
-  width: 18px;
+  width: 22px;
   height: 2px;
-  background-color: rgb(216, 75, 87);
+  background-color: rgb(39, 42, 206);
   margin: 5px 0;
   border-radius: 2px;
 }
@@ -289,7 +284,7 @@ input[type=submit]:hover {
 }
 
 @media (min-width: 922px) {
-  nav ul {
+  .main-nav {
     visibility: visible;
     float: right;
   }
