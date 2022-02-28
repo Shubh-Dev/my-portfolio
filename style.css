@@ -9,6 +9,16 @@ body {
   padding: 0;
 }
 
+.main-header {
+  position: relative;
+}
+
+.hamburger {
+  position: absolute;
+  top: 45px;
+  right: 10px;
+}
+
 .main-header.active {
   background-color: #6070ff;
   position: fixed;
@@ -32,12 +42,7 @@ body {
 }
 
 .my-logo.active {
-  margin-left: -18%;
-}
-
-.main-nav .link-1.active {
-  font-size: 100px;
-  color: #fff;
+  display: none;
 }
 
 .main-nav.active {
@@ -48,6 +53,13 @@ body {
   height: 100vh;
   width: 100vw;
   border: 2px dashed red;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.main-nav.active .link-1 {
+  font-size: 40px;
+  color: #fff;
 }
 
 .bar.active {
@@ -57,7 +69,7 @@ body {
 .line {
   width: 18px;
   height: 2px;
-  background-color: rgb(75, 75, 216);
+  background-color: rgb(216, 75, 87);
   margin: 5px 0;
   border-radius: 2px;
 }
@@ -297,7 +309,6 @@ input[type=submit]:hover {
 
   .hamburger {
     visibility: hidden;
-    margin-left: -55vw;
   }
 
   .showcase {
