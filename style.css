@@ -9,20 +9,71 @@ body {
   padding: 0;
 }
 
+.main-header {
+  position: relative;
+}
+
+.hamburger {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+}
+
+.hamburger.active {
+  display: none;
+}
+
+.cross-img {
+  margin-top: 25px;
+}
+
+.cross-img img {
+  cursor: pointer;
+}
+
+.main-header.active {
+  background-color: #6070ff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.95;
+}
+
 #branding a {
   font-size: 18px;
   font-weight: bold;
   color: rgb(75, 75, 216);
 }
 
-.nav-img img {
+.main-nav {
+  display: flex;
   visibility: hidden;
 }
 
+.main-nav.active {
+  visibility: visible;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.main-nav.active .link-1 {
+  font-size: 35px;
+  color: #fff;
+}
+
+.my-logo.active {
+  display: none;
+}
+
 .line {
-  width: 18px;
+  width: 22px;
   height: 2px;
-  background-color: rgb(75, 75, 216);
+  background-color: rgb(39, 42, 206);
   margin: 5px 0;
   border-radius: 2px;
 }
@@ -34,6 +85,10 @@ body {
   height: auto;
   display: flex;
   justify-content: space-between;
+}
+
+.box-1 {
+  margin: 7vh auto 4vh auto;
 }
 
 .showcase {
@@ -90,6 +145,10 @@ h4 {
   margin: 8px auto;
 }
 
+.main-text p {
+  font-size: 14px;
+}
+
 .main-skill ul li {
   padding-right: 10px;
 }
@@ -106,7 +165,9 @@ button {
 }
 
 button:hover {
-  background-color: aqua;
+  background-color: rgb(166, 113, 252);
+  font-weight: bolder;
+  color: #fff;
 }
 
 .showcase-2 {
@@ -162,11 +223,20 @@ button:hover {
   justify-content: center;
 }
 
-.text-contact #contact-img {
+.text-contact h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+}
+
+.text-contact p {
   padding-bottom: 20px;
   width: 80%;
   height: auto;
   margin: auto;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
 }
 
 .form {
@@ -213,7 +283,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #6075ad;
+  background-color: #79f798;
+  color: #fff;
 }
 
 .line-1 img {
@@ -222,13 +293,30 @@ input[type=submit]:hover {
 }
 
 @media (min-width: 922px) {
-  .nav-img img {
+  .main-nav {
     visibility: visible;
+    float: right;
+  }
+
+  nav ul li {
+    padding-right: 30px;
+  }
+
+  nav ul li a {
+    color: #000;
+    font-size: 17px;
+  }
+
+  nav ul li a:hover {
+    color: #6070ff;
   }
 
   .hamburger {
     visibility: hidden;
-    margin-left: -60vw;
+  }
+
+  .cross-img {
+    display: none;
   }
 
   .showcase {
@@ -253,12 +341,6 @@ input[type=submit]:hover {
     border-radius: 10px;
   }
 
-  .sidebar {
-    display: grid;
-    grid-auto-rows: min-content;
-    row-gap: -0.25vh;
-  }
-
   .project-title-2 {
     display: flex;
     justify-content: center;
@@ -270,22 +352,20 @@ input[type=submit]:hover {
     border-radius: 10px;
   }
 
+  .sidebar {
+    display: grid;
+    grid-auto-rows: min-content;
+    row-gap: -0.25vh;
+    margin-top: -5vh;
+    padding-left: 20px;
+  }
+
+  .button-1 {
+    margin-top: -5px;
+  }
+
   .grid-1 {
     padding: 0 2vw;
-  }
-
-  aside {
-    padding: 0 2vw;
-  }
-
-  .main-headline img {
-    width: 70px;
-    height: auto;
-  }
-
-  .main-text img {
-    width: auto;
-    height: 30px;
   }
 
   .main-role img {
@@ -305,8 +385,12 @@ input[type=submit]:hover {
     margin-top: 30px;
   }
 
+  .button-2 img:hover {
+    transform: scale(1.09);
+  }
+
   .contact-me {
-    width: 25%;
+    width: 30%;
     padding-top: 12vh;
     padding-bottom: 5vh;
   }
@@ -326,5 +410,19 @@ input[type=submit]:hover {
     height: 50px;
     position: relative;
     margin-left: 5em;
+  }
+
+  #branding:hover {
+    transform: rotate(360deg);
+    transition-duration: 1.5s;
+    transition-timing-function: ease-out;
+  }
+
+  .main-image img:hover {
+    transform: scale(1.1);
+  }
+
+  #form-instruction:hover {
+    transform: translate(10px);
   }
 }

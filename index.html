@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){window.dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-1QM5JJ3LGL');
+</script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="Shubh M Das">
     <link rel="stylesheet" href="style.css">
-    <title>portfolio</title>
+    <title>Shubh | portfolio</title>
 </head>
 
 <body>
-   <header>
+   <header class="main-header">
     <div class="container">
-     <div id="branding">
+     <div id="branding" class="my-logo">
       <a href="./index.html">My Logo</a>
        </div>
-       <div class="nav-img">
-         <img src="./images/navigation-items.svg" alt="navigation">
-       </div>
+       <nav>
+         <ul class="main-nav">
+           <li><a class="link-1 link-3" href="#project_sec">Portfolio</a></li>
+           <li><a class="link-1 link-4" href="#about_sec">About</a></li>
+           <li><a class="link-1 link-5" href="#contact_sec">Contact</a></li>
+         </ul>
+       </nav>
         <div class="hamburger">
           <div class="line"></div>
           <div class="line"></div>
           <div class="line"></div>
         </div>
-      </div>
-  </header>
-<section>    
+        <div class="cross-img">
+          <img src="./images/enabled-1-1.svg" alt="cross-img">
+        </div>
+      </div> 
+    </header> 
+    <section>  
  <div class="showcase">
    <div class="box-1">
      <h1>I'm Shubh <br>Glad to see you!</h1>
@@ -46,7 +60,7 @@
      </div> 
     </div>
     </div> 
-  <div class="project-1 project-title-1">
+  <div class="project-1 project-title-1" id="project_sec">
     <aside class="grid-1">
     <div class="main-image">
       <img src="./images/SnapshootPortfolio.svg" alt="mainimage">
@@ -54,13 +68,14 @@
     </aside>
     <aside class="sidebar">
     <div class="main-headline">
-      <img src="./images/ProjectTitle.svg" alt="Tonic">
+      <H2>Tonic</H2>
     </div>
     <div class="main-role">
       <img src="./images/frame2.svg" alt="role">
     </div>
     <div class="main-text">
-      <img src="./images/Text-2.svg" alt="text">
+      <p>A daily selection of privately personalized; no accounts of
+        sign-ups required</p>
     </div>
     <div class="main-skill">
       <ul>
@@ -82,13 +97,14 @@
     </aside>
   <aside class="sidebar">
     <div class="main-headline">
-      <img src="./images/project-title-2.svg" alt="projectname">
+      <h2>Multi-Post Stories</h2>
     </div>
     <div class="main-role">
       <img src="./images/frame2.svg" alt="role">
     </div>
     <div class="main-text">
-      <img src="./images/Text-2.svg" alt="text">
+      <p>A daily selection of privately personalized; no accounts of
+        sign-ups required</p>
     </div>
     <div class="main-skill">
       <ul>
@@ -111,13 +127,14 @@
     </aside>
   <aside class="sidebar">
     <div class="main-headline">
-      <img src="./images/ProjectTitle.svg" alt="Tonic">
+      <h2>Tonic</h2>
     </div>
     <div class="main-role">
       <img src="./images/frame2.svg" alt="role">
     </div>
     <div class="main-text">
-      <img src="./images/Text-2.svg" alt="text">
+      <p>A daily selection of privately personalized; no accounts of
+        sign-ups required</p>
     </div>
     <div class="main-skill">
       <ul>
@@ -139,13 +156,14 @@
     </aside>
   <aside class="sidebar">
     <div class="main-headline">
-      <img src="./images/project-title-2.svg" alt="Tonic">
+      <h2>Multi-Post Stories</h2>
     </div>
     <div class="main-role">
       <img src="./images/frame2.svg" alt="role">
     </div>
     <div class="main-text">
-      <img src="./images/Text-2.svg" alt="text">
+      <p>A daily selection of privately personalized; no accounts of
+        sign-ups required</p>
     </div>
     <div class="main-skill">
       <ul>
@@ -159,7 +177,7 @@
     </div>
   </aside>
   </div>
-  <div class="showcase-2">
+  <div class="showcase-2" id="about_sec">
     <aside class="sidebar">
     <h2>About <br>Myself</h2>
     <br>
@@ -195,12 +213,13 @@
   </aside>
   </div>
 </section> 
-   <footer class="contact-main">
+   <footer class="contact-main" id="contact_sec">
     <div class="contact-me">
       <div class="text-contact">
-        <img id="contact-img" src="./images/PrimaryText-1.svg" alt="Contact-me">
+        <h2>Contact me</h2>
         <br>
-        <img src="./images/PrimaryText-21.svg" alt="text">
+        <p>If you have any application you are interested in developing, a feature that you
+          need to built, or a project that needs coding, I would like to help with it.</p>
       </div>
       <div class="form">
         <form action="https://formspree.io/f/mknyrjvn" method="post">
@@ -213,6 +232,7 @@
       </form>
       </div>
      </div>
-    </footer>  
+    </footer> 
+    <script src="script.js"></script> 
 </body>
 </html>
