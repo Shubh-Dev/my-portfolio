@@ -13,20 +13,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="Shubh M Das">
     <link rel="stylesheet" href="style.css">
-    <title>portfolio</title>
+    <title>Shubh | portfolio</title>
 </head>
 
 <body>
-   <header>
+   <header class="main-header">
     <div class="container">
-     <div id="branding">
+     <div id="branding" class="my-logo">
       <a href="./index.html">My Logo</a>
        </div>
        <nav>
-         <ul>
-           <li><a href="#">Portfolio</a></li>
-           <li><a href="#">About</a></li>
-           <li><a href="#">Contact</a></li>
+         <ul class="main-nav">
+           <li><a class="link-1 link-3" href="#project_sec">Portfolio</a></li>
+           <li><a class="link-1 link-4" href="#about_sec">About</a></li>
+           <li><a class="link-1 link-5" href="#contact_sec">Contact</a></li>
          </ul>
        </nav>
         <div class="hamburger">
@@ -34,9 +34,12 @@
           <div class="line"></div>
           <div class="line"></div>
         </div>
-      </div>
-  </header>
-<section>    
+        <div class="cross-img">
+          <img src="./images/enabled-1-1.svg" alt="cross-img">
+        </div>
+      </div> 
+    </header> 
+    <section>  
  <div class="showcase">
    <div class="box-1">
      <h1>I'm Shubh <br>Glad to see you!</h1>
@@ -57,7 +60,7 @@
      </div> 
     </div>
     </div> 
-  <div class="project-1 project-title-1">
+  <div class="project-1 project-title-1" id="project_sec">
     <aside class="grid-1">
     <div class="main-image">
       <img src="./images/SnapshootPortfolio.svg" alt="mainimage">
@@ -174,7 +177,7 @@
     </div>
   </aside>
   </div>
-  <div class="showcase-2">
+  <div class="showcase-2" id="about_sec">
     <aside class="sidebar">
     <h2>About <br>Myself</h2>
     <br>
@@ -210,7 +213,7 @@
   </aside>
   </div>
 </section> 
-   <footer class="contact-main">
+   <footer class="contact-main" id="contact_sec">
     <div class="contact-me">
       <div class="text-contact">
         <h2>Contact me</h2>
@@ -229,6 +232,7 @@
       </form>
       </div>
      </div>
-    </footer>  
+    </footer> 
+    <script src="script.js"></script> 
 </body>
 </html>
