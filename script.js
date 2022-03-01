@@ -67,9 +67,3 @@ popOutMenu4.addEventListener('click', () => {
   const imgCross = document.querySelector('.cross-img');
   imgCross.classList.remove('active');
 });
-
-/* let navText = document.querySelector("hamburger");
-navText.addEventListener("click",()=> {
-    let myTextStyle = document.querySelectorAll(".link-1", "#main-nav");
-    myTextStyle.classList.add("active");
-}) */
