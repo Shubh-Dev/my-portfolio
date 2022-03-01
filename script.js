@@ -8,6 +8,14 @@ popMenu.addEventListener('click', () => {
   myLogo.classList.add('active');
   const crossBar = document.querySelector('.enable-icon');
   crossBar.classList.add('active');
+  const lineBar = document.querySelector('.line');
+  lineBar.classList.add('active');
+});
+
+const popOutMenu = document.querySelector('.cross-img');
+popOutMenu.addEventListener('click', () => {
+  const imgCross = document.querySelector('.main-header');
+  imgCross.classList.remove('active');
 });
 
 /* let navText = document.querySelector("hamburger");

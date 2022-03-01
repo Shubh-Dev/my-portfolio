@@ -19,6 +19,14 @@ body {
   right: 15px;
 }
 
+.hamburger img {
+  width: 50px;
+  height: auto;
+  margin-top: -10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
 .main-header.active {
   background-color: #6070ff;
   position: fixed;
@@ -67,6 +75,10 @@ body {
   background-color: rgb(39, 42, 206);
   margin: 5px 0;
   border-radius: 2px;
+}
+
+.line.active {
+  color: #fff;
 }
 
 .container {
