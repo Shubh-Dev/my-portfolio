@@ -134,19 +134,6 @@ h4 {
   row-gap: 10px;
 }
 
-/* .project-1.active {
-  background: pink;
-  margin: 10px 10px 10px 10px;
-  width: 96%;
-  height: 96vh;
-  padding: 10px 10px;
-  z-index: 2;
-  position: fixed;
-  top: 0;
-  right: 0;
-  border-radius: 20px;
-} */
-
 .grid-2 {
   display: grid;
   row-gap: 10px;
@@ -338,6 +325,14 @@ input[type=submit]:hover {
   justify-content: space-between;
 }
 
+.container-desktop-modal {
+  display: none;
+}
+
+.container-desktop-modal.active {
+  display: none;
+}
+
 @media (min-width: 922px) {
   .main-nav {
     visibility: visible;
@@ -474,5 +469,69 @@ input[type=submit]:hover {
 
   #form-instruction:hover {
     transform: translate(10px);
+  }
+
+  .main-desktop-head-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-container-body-desktop {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-container-desktop {
+    display: flex;
+    gap: 20px;
+  }
+
+  .side-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .button-desktop-popup-flex {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .container-desktop-modal {
+    display: none;
+  }
+
+  .container-desktop-modal.active {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    margin: auto;
+    background: lightgray;
+    position: fixed;
+  }
+
+  .inner-desktop-container {
+    width: 94%;
+    height: 100%;
+    margin: auto;
+    background: #fff;
+  }
+
+  .skill-list-img {
+    width: 15vw;
+    height: auto;
+  }
+
+  .skill-tag-img-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .para-container-desktop-popup {
+    width: 70%;
   }
 }
