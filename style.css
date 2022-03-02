@@ -300,19 +300,52 @@ input[type=submit]:hover {
   color: #fff;
 }
 
-.popup-button-container {
-  display: flex;
-  justify-content: space-evenly;
+.container-modal {
+  display: none;
 }
 
-/* #container-modal {
-  display: none;
-} */
+.container-modal.active {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  background-color: lightgrey;
+  margin: auto;
+  position: fixed;
+}
+
+.inner-container {
+  width: 89%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+  margin: auto;
+  background-color: #fff;
+  margin-top: 7vh;
+  padding: 5vh 10px 5vh 10px;
+}
+
+.main-container-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup-button-container {
+  display: flex;
+  justify-content: space-between;
+}
 
 @media (min-width: 922px) {
   .main-nav {
     visibility: visible;
     float: right;
+  }
+
+  .container-modal.active {
+    display: none;
   }
 
   nav ul li {
