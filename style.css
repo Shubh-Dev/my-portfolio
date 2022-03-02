@@ -134,6 +134,19 @@ h4 {
   row-gap: 10px;
 }
 
+/* .project-1.active {
+  background: pink;
+  margin: 10px 10px 10px 10px;
+  width: 96%;
+  height: 96vh;
+  padding: 10px 10px;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  right: 0;
+  border-radius: 20px;
+} */
+
 .grid-2 {
   display: grid;
   row-gap: 10px;
@@ -287,10 +300,14 @@ input[type=submit]:hover {
   color: #fff;
 }
 
-.line-1 img {
-  margin: auto;
-  padding-left: 120px;
+.popup-button-container {
+  display: flex;
+  justify-content: space-evenly;
 }
+
+/* #container-modal {
+  display: none;
+} */
 
 @media (min-width: 922px) {
   .main-nav {

@@ -67,3 +67,56 @@ popOutMenu4.addEventListener('click', () => {
   const imgCross = document.querySelector('.cross-img');
   imgCross.classList.remove('active');
 });
+
+// const modal = document.getElementById('#container-modal');
+// modal.append
+
+// const popOutProjectDetails = document.querySelector('.button-1');
+// popOutProjectDetails.addEventListener('click', () => {
+//   const popOutButton = document.querySelector('.project-1');
+//   popOutButton.classList.add('active');
+// });
+const projects = [
+  {
+    id: 1,
+    name: 'Tonic',
+    img: './images/frame2',
+    img1: './images/SnapshootPortfolio.svg',
+    details: 'Laboris tempor commodo excepteur voluptate dolore sunt.Et in mollit non aliqua elit dolor est laboris mollit cupidatat exercitation.Consequat id amet consequat excepteur velit sit cupidatat proident ad dolor pariatur tempor dolor.Labore esse tempor nostrud culpa Lorem ipsum commodo in do dolore.Cupidatat nulla quis consectetur velit duis ex anim tempor consequat ex.',
+    img2: './images.Tags.svg',
+    github: 'https://github.com/Shubh-Dev',
+  },
+  {
+    id: 2,
+    name: 'multi-post stories',
+    img: './images/Portfolio-2.svg',
+    img1: './images/SnapshootPortfolio.svg',
+    details: 'Laboris tempor commodo excepteur voluptate dolore sunt.Et in mollit non aliqua elit dolor est laboris mollit cupidatat exercitation.Consequat id amet consequat excepteur velit sit cupidatat proident ad dolor pariatur tempor dolor.Labore esse tempor nostrud culpa Lorem ipsum commodo in do dolore.Cupidatat nulla quis consectetur velit duis ex anim tempor consequat ex.',
+    img2: './images.Tags.svg',
+    github: 'https://github.com/Shubh-Dev',
+  },
+  {
+    id: 3,
+    name: 'Tonic',
+    img: './images/portfolio-3.svg',
+    img1: './images/SnapshootPortfolio.svg',
+    details: 'Laboris tempor commodo excepteur voluptate dolore sunt.Et in mollit non aliqua elit dolor est laboris mollit cupidatat exercitation.Consequat id amet consequat excepteur velit sit cupidatat proident ad dolor pariatur tempor dolor.Labore esse tempor nostrud culpa Lorem ipsum commodo in do dolore.Cupidatat nulla quis consectetur velit duis ex anim tempor consequat ex.',
+    img2: './images.Tags.svg',
+    github: 'https://github.com/Shubh-Dev',
+  },
+  {
+    id: 4,
+    name: 'Multi-post stories',
+    img: './images/portfolio-4.svg',
+    img1: './images/SnapshootPortfolio.svg',
+    details: 'Laboris tempor commodo excepteur voluptate dolore sunt.Et in mollit non aliqua elit dolor est laboris mollit cupidatat exercitation.Consequat id amet consequat excepteur velit sit cupidatat proident ad dolor pariatur tempor dolor.Labore esse tempor nostrud culpa Lorem ipsum commodo in do dolore.Cupidatat nulla quis consectetur velit duis ex anim tempor consequat ex.',
+    img2: './images.Tags.svg',
+    github: 'https://github.com/Shubh-Dev',
+  },
+];
+const popModal = document.getElementById('container-modal');
+document.getElementById('body').onload = () => {
+  projects.map((project, index) => {
+  
+  })
+}
