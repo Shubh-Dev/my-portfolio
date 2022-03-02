@@ -79,7 +79,18 @@ popInProjectDetails.addEventListener('click', () => {
     popProjectOut.classList.remove('active');
   });
 });
-
+const popInWindowDesktop = document.querySelector('.button-1');
+popInWindowDesktop.addEventListener('click', () => {
+  if (window.innerWidth >= 992) {
+    const popDesktopProjectOut = document.querySelector('.container-desktop-modal');
+    popDesktopProjectOut.classList.add('active');
+  }
+  const popOutWindowDesktop = document.querySelector('.popup-cross-desktop');
+  popOutWindowDesktop.addEventListener('click', () => {
+    const popDesktopProjectOut = document.querySelector('.container-desktop-modal');
+    popDesktopProjectOut.classList.remove('active');
+  });
+});
 const projects = [
   {
     id: 1,
