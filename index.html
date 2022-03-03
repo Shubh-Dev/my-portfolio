@@ -49,7 +49,7 @@
             If you like what you see and have a project you need coded, don’t 
             hestiate to contact me.</p>
     <br>
-    <h4>LET'S CONNECT</h4>
+    <h4 class="head4">LET'S CONNECT</h4>
       <div class="social-icon">
         <ul>
             <li><a href="#"><img src="./images/github.svg" alt="github"></a></li>
@@ -222,12 +222,13 @@
           need to built, or a project that needs coding, I would like to help with it.</p>
       </div>
       <div class="form">
-        <form action="https://formspree.io/f/mknyrjvn" method="post">
+        <form id="my-form" action="https://formspree.io/f/mknyrjvn" method="post">
         <ul>
           <li><input type="text" maxlength="30" placeholder="Name" required></li>
-          <li><input type="email" placeholder="Enter E-mail" required></li>
+          <li><input id="my-email" type="email" placeholder="Enter E-mail" required></li>
           <li><textarea name="msg" placeholder="Write your message here" maxlength="500" required></textarea></li>
           <li><input id="submit-button" type="submit" value="Get It Touch"></li>
+          <li><span id="error-mes"></span></li>
         </ul>
       </form>
       </div>

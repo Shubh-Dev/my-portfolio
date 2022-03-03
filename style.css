@@ -242,6 +242,7 @@ button:hover {
 .form {
   width: 100%;
   margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .form ul {
@@ -279,7 +280,7 @@ input[type=submit] {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  margin-bottom: 32px;
+  margin-bottom: 0;
 }
 
 input[type=submit]:hover {
@@ -331,6 +332,15 @@ input[type=submit]:hover {
 
 .container-desktop-modal.active {
   display: none;
+}
+
+#error-mes {
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Inter, sans-serif;
+  margin-top: -60px;
+  width: 100%;
 }
 
 @media (min-width: 922px) {
