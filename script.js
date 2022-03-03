@@ -79,17 +79,28 @@ popInProjectDetails.addEventListener('click', () => {
     popProjectOut.classList.remove('active');
   });
 });
+
+document.querySelector('.head4').textContent = 'Lets disconnect';
 const popInWindowDesktop = document.querySelector('.button-1');
 popInWindowDesktop.addEventListener('click', () => {
   if (window.innerWidth >= 992) {
     const popDesktopProjectOut = document.querySelector('.container-desktop-modal');
     popDesktopProjectOut.classList.add('active');
-    let changedName = document.querySelector('.main-container-head').textContent;
-    changedName = 'Shubh';
   }
   const popOutWindowDesktop = document.querySelector('.popup-cross-desktop');
   popOutWindowDesktop.addEventListener('click', () => {
     const popDesktopProjectOut = document.querySelector('.container-desktop-modal');
     popDesktopProjectOut.classList.remove('active');
   });
+});
+document.getElementById('my-form').addEventListener('submit', (e) => {
+  const emailValue = document.getElementById('my-email').value;
+  const emailError = document.getElementById('error-mes');
+  const regex = /^[a-z]/g;
+  if (regex.test(emailValue)) {
+    emailError.textContent = '';
+  } else {
+    e.preventDefault();
+    emailError.textContent = 'Email should be in lowercase';
+  }
 });
