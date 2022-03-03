@@ -330,9 +330,9 @@ input[type=submit]:hover {
   display: none;
 }
 
-.container-desktop-modal.active {
+/* .container-desktop-modal.active {
   display: none;
-}
+} */
 
 #error-mes {
   color: red;
@@ -516,16 +516,15 @@ input[type=submit]:hover {
     display: block;
     width: 100vw;
     height: 100vh;
+    margin: auto;
     top: 0;
     right: 0;
-    margin: auto;
     position: fixed;
   }
 
   .inner-desktop-container {
     width: 94%;
     height: 90%;
-    margin: auto;
     background: #fff;
     padding: 6vh 7vw 10vh 3vw;
   }
@@ -542,6 +541,18 @@ input[type=submit]:hover {
   }
 
   .para-container-desktop-popup {
-    width: 70%;
+    width: 65%;
+  }
+
+  .popup-cross-desktop {
+    cursor: pointer;
+  }
+
+  .btp-1 {
+    width: 10vw;
+  }
+
+  .btp-2 {
+    width: 10vw;
   }
 }
