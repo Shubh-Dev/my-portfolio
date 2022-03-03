@@ -312,7 +312,7 @@ input[type=submit]:hover {
   border-radius: 20px;
   margin: auto;
   background-color: #fff;
-  margin-top: 7vh;
+  margin-top: 5vh;
   padding: 5vh 10px 5vh 10px;
 }
 
@@ -329,10 +329,6 @@ input[type=submit]:hover {
 .container-desktop-modal {
   display: none;
 }
-
-/* .container-desktop-modal.active {
-  display: none;
-} */
 
 #error-mes {
   color: red;
@@ -524,9 +520,10 @@ input[type=submit]:hover {
 
   .inner-desktop-container {
     width: 94%;
-    height: 90%;
+    height: 96%;
     background: #fff;
-    padding: 6vh 7vw 10vh 3vw;
+    padding: 6vh 7vw 0 3vw;
+    margin-top: -20px;
   }
 
   .skill-list-img {
@@ -549,10 +546,10 @@ input[type=submit]:hover {
   }
 
   .btp-1 {
-    width: 10vw;
+    width: 15vw;
   }
 
   .btp-2 {
-    width: 10vw;
+    width: 15vw;
   }
 }

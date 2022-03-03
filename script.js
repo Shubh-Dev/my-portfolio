@@ -76,6 +76,7 @@ const projects = [
     img2: './images/SnapshootPortfolio.svg',
     details: 'Laboris tempor commodo excepteur voluptate dolore sunt.Et in mollit non aliqua elit dolor est laboris mollit cupidatat exercitation.Consequat id amet consequat excepteur velit sit cupidatat proident ad dolor pariatur tempor dolor.Labore esse tempor nostrud culpa Lorem ipsum commodo in do dolore.Cupidatat nulla quis consectetur velit duis ex anim tempor consequat ex.',
     img3: './images/Tags.svg',
+    details2: 'Esse elit duis adipisicing et et laboris exercitation ipsum esse sunt voluptate esse culpa. Voluptate incididunt sunt pariatur sint voluptate voluptate irure anim proident enim enim. Ea dolor quis do quis tempor nulla dolore. Enim laborum sit sint Lorem eu consequat ullamco. Aute labore do incididunt laboris. Irure ex ea fugiat culpa anim dolore anim consequat fugiat. Nisi duis ad nulla ex incididunt labore id cillum officia laboris exercitation.Sit ullamco id sint mollit elit magna cillum qui elit. Proident commodo irure labore enim eiusmod nisi laboris veniam in esse in eu ut. Consectetur nisi labore esse minim laboris nulla culpa veniam laborum.',
     img4: './images/Icon-export-button.svg',
     img5: './images/github.svg',
     img6: './images/Portfolio-2.svg',
@@ -112,7 +113,6 @@ const projects = [
     github: 'https://github.com/Shubh-Dev',
   },
 ];
-// mobile-pop-button-1
 const popInProjectDetails = document.querySelector('.button-1');
 popInProjectDetails.addEventListener('click', () => {
   if (window.innerWidth <= 992) {
@@ -132,12 +132,17 @@ popInProjectDetails.addEventListener('click', () => {
     document.querySelector('.desktop-popup-main-head').textContent = projects[0].name;
     document.querySelector('.popup-cross-desktop').src = projects[0].img;
     document.querySelector('.skill-list-img').src = projects[0].img1;
-    document.querySelector('.desktop-main-img-popup').src = projects[0].img6;
-    document.querySelector('.popUpWindowPara').textContent = projects[0].details;
+    document.querySelector('.desktop-main-img-popup').src = projects[0].img8;
+    document.querySelector('.popUpWindowPara').textContent = projects[0].details2;
     document.querySelector('.desktop-aside-skill-icon-1').src = projects[0].img3;
     document.querySelector('.desktop-aside-skill-icon-2').src = projects[0].img9;
     document.querySelector('.popup-img-live-1').src = projects[0].img4;
     document.querySelector('.popup-img-live-2').src = projects[0].img5;
+    const popOutWindowDesktop = document.querySelector('.popup-cross-desktop');
+    popOutWindowDesktop.addEventListener('click', () => {
+      const popDesktopProjectOut = document.querySelector('.container-desktop-modal');
+      popDesktopProjectOut.classList.remove('active');
+    });
   }
   const popOutProjectDetails = document.querySelector('.popup-cross');
   popOutProjectDetails.addEventListener('click', () => {
@@ -145,7 +150,6 @@ popInProjectDetails.addEventListener('click', () => {
     popProjectOut.classList.remove('active');
   });
 });
-// mobile button-pop 2
 const popInProjectDetails2 = document.querySelector('.button-2-pop');
 popInProjectDetails2.addEventListener('click', () => {
   if (window.innerWidth <= 992) {
@@ -166,11 +170,16 @@ popInProjectDetails2.addEventListener('click', () => {
     document.querySelector('.popup-cross-desktop').src = projects[0].img;
     document.querySelector('.skill-list-img').src = projects[0].img1;
     document.querySelector('.desktop-main-img-popup').src = projects[0].img8;
-    document.querySelector('.popUpWindowPara').textContent = projects[0].details;
+    document.querySelector('.popUpWindowPara').textContent = projects[0].details2;
     document.querySelector('.desktop-aside-skill-icon-1').src = projects[0].img3;
     document.querySelector('.desktop-aside-skill-icon-2').src = projects[0].img9;
     document.querySelector('.popup-img-live-1').src = projects[0].img4;
     document.querySelector('.popup-img-live-2').src = projects[0].img5;
+    const popOutWindowDesktop = document.querySelector('.popup-cross-desktop');
+    popOutWindowDesktop.addEventListener('click', () => {
+      const popDesktopProjectOut = document.querySelector('.container-desktop-modal');
+      popDesktopProjectOut.classList.remove('active');
+    });
   }
   const popOutProjectDetails = document.querySelector('.popup-cross');
   popOutProjectDetails.addEventListener('click', () => {
@@ -178,8 +187,6 @@ popInProjectDetails2.addEventListener('click', () => {
     popProjectOut.classList.remove('active');
   });
 });
-
-// mobile button-pop 3
 const popInProjectDetails3 = document.querySelector('.button-3-pop');
 popInProjectDetails3.addEventListener('click', () => {
   if (window.innerWidth <= 992) {
@@ -199,12 +206,17 @@ popInProjectDetails3.addEventListener('click', () => {
     document.querySelector('.desktop-popup-main-head').textContent = projects[0].name;
     document.querySelector('.popup-cross-desktop').src = projects[0].img;
     document.querySelector('.skill-list-img').src = projects[0].img1;
-    document.querySelector('.desktop-main-img-popup').src = projects[0].img7;
-    document.querySelector('.popUpWindowPara').textContent = projects[0].details;
+    document.querySelector('.desktop-main-img-popup').src = projects[0].img8;
+    document.querySelector('.popUpWindowPara').textContent = projects[0].details2;
     document.querySelector('.desktop-aside-skill-icon-1').src = projects[0].img3;
     document.querySelector('.desktop-aside-skill-icon-2').src = projects[0].img9;
     document.querySelector('.popup-img-live-1').src = projects[0].img4;
     document.querySelector('.popup-img-live-2').src = projects[0].img5;
+    const popOutWindowDesktop = document.querySelector('.popup-cross-desktop');
+    popOutWindowDesktop.addEventListener('click', () => {
+      const popDesktopProjectOut = document.querySelector('.container-desktop-modal');
+      popDesktopProjectOut.classList.remove('active');
+    });
   }
   const popOutProjectDetails = document.querySelector('.popup-cross');
   popOutProjectDetails.addEventListener('click', () => {
@@ -212,7 +224,6 @@ popInProjectDetails3.addEventListener('click', () => {
     popProjectOut.classList.remove('active');
   });
 });
-// mobile button-pop 4
 const popInProjectDetails4 = document.querySelector('.button-4-pop');
 popInProjectDetails4.addEventListener('click', () => {
   if (window.innerWidth <= 992) {
@@ -232,12 +243,17 @@ popInProjectDetails4.addEventListener('click', () => {
     document.querySelector('.desktop-popup-main-head').textContent = projects[1].name;
     document.querySelector('.popup-cross-desktop').src = projects[0].img;
     document.querySelector('.skill-list-img').src = projects[0].img1;
-    document.querySelector('.desktop-main-img-popup').src = projects[3].img;
-    document.querySelector('.popUpWindowPara').textContent = projects[0].details;
+    document.querySelector('.desktop-main-img-popup').src = projects[0].img8;
+    document.querySelector('.popUpWindowPara').textContent = projects[0].details2;
     document.querySelector('.desktop-aside-skill-icon-1').src = projects[0].img3;
     document.querySelector('.desktop-aside-skill-icon-2').src = projects[0].img9;
     document.querySelector('.popup-img-live-1').src = projects[0].img4;
     document.querySelector('.popup-img-live-2').src = projects[0].img5;
+    const popOutWindowDesktop = document.querySelector('.popup-cross-desktop');
+    popOutWindowDesktop.addEventListener('click', () => {
+      const popDesktopProjectOut = document.querySelector('.container-desktop-modal');
+      popDesktopProjectOut.classList.remove('active');
+    });
   }
   const popOutProjectDetails = document.querySelector('.popup-cross');
   popOutProjectDetails.addEventListener('click', () => {
@@ -246,19 +262,6 @@ popInProjectDetails4.addEventListener('click', () => {
   });
 });
 
-const popInWindowDesktop = document.querySelector('.button-1');
-popInWindowDesktop.addEventListener('click', () => {
-  // if (window.innerWidth >= 992) {
-  //   const popDesktopProjectOut = document.querySelector('.container-desktop-modal');
-  //   popDesktopProjectOut.classList.add('active');
-  // }
-  const popOutWindowDesktop = document.querySelector('.popup-cross-desktop');
-  popOutWindowDesktop.addEventListener('click', () => {
-    const popDesktopProjectOut = document.querySelector('.container-desktop-modal');
-    popDesktopProjectOut.classList.remove('active');
-  });
-});
-// form section
 document.getElementById('my-form').addEventListener('submit', (e) => {
   const emailValue = document.getElementById('my-email').value;
   const emailError = document.getElementById('error-mes');
