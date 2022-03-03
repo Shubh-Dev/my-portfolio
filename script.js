@@ -84,6 +84,8 @@ popInWindowDesktop.addEventListener('click', () => {
   if (window.innerWidth >= 992) {
     const popDesktopProjectOut = document.querySelector('.container-desktop-modal');
     popDesktopProjectOut.classList.add('active');
+    let changedName = document.querySelector('.main-container-head').textContent;
+    changedName = 'Shubh';
   }
   const popOutWindowDesktop = document.querySelector('.popup-cross-desktop');
   popOutWindowDesktop.addEventListener('click', () => {
