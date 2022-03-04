@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
   <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -8,7 +9,6 @@
   gtag('js', new Date());
   gtag('config', 'G-1QM5JJ3LGL');
 </script>
-    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="Shubh M Das">
@@ -39,7 +39,7 @@
         </div>
       </div> 
     </header> 
-    <section>  
+    <section> 
  <div class="showcase">
    <div class="box-1">
      <h1>I'm Shubh <br>Glad to see you!</h1>
@@ -49,7 +49,7 @@
             If you like what you see and have a project you need coded, don’t 
             hestiate to contact me.</p>
     <br>
-    <h4>LET'S CONNECT</h4>
+    <h4 class="head4">LET'S CONNECT</h4>
       <div class="social-icon">
         <ul>
             <li><a href="#"><img src="./images/github.svg" alt="github"></a></li>
@@ -74,7 +74,7 @@
       <img src="./images/frame2.svg" alt="role">
     </div>
     <div class="main-text">
-      <p>A daily selection of privately personalized; no accounts of
+      <p class="main-text-2">A daily selection of privately personalized; no accounts of
         sign-ups required</p>
     </div>
     <div class="main-skill">
@@ -84,8 +84,8 @@
       <li><img src="./images/jS.svg" alt="javaScript"></li> 
     </ul> 
     </div>
-    <div class="button-1">
-        <button type="submit">See Project</button>
+    <div class="button-2">
+        <button class="button-1" type="submit">See Project</button>
     </div>
   </aside>
   </div>
@@ -114,7 +114,7 @@
     </ul> 
     </div>
     <div class="button-1">
-        <button type="submit">See Project</button>
+        <button class ="button-2-pop" type="submit">See Project</button>
     </div>
   </aside>
   </div>
@@ -144,7 +144,7 @@
     </ul> 
     </div>
     <div class="button-1">
-        <button type="submit">See Project</button>
+        <button class = "button-3-pop" type="submit">See Project</button>
     </div>
   </aside>
   </div>
@@ -173,7 +173,7 @@
     </ul> 
     </div>
     <div class="button-1">
-        <button type="submit">See Project</button>
+        <button class="button-4-pop" type="submit">See Project</button>
     </div>
   </aside>
   </div>
@@ -222,17 +222,63 @@
           need to built, or a project that needs coding, I would like to help with it.</p>
       </div>
       <div class="form">
-        <form action="https://formspree.io/f/mknyrjvn" method="post">
+        <form id="my-form" action="https://formspree.io/f/mknyrjvn" method="post">
         <ul>
           <li><input type="text" maxlength="30" placeholder="Name" required></li>
-          <li><input type="email" placeholder="Enter E-mail" required></li>
+          <li><input id="my-email" type="email" placeholder="Enter E-mail" required></li>
           <li><textarea name="msg" placeholder="Write your message here" maxlength="500" required></textarea></li>
           <li><input id="submit-button" type="submit" value="Get It Touch"></li>
+          <li><span id="error-mes"></span></li>
         </ul>
       </form>
       </div>
      </div>
     </footer> 
     <script src="script.js"></script> 
+    <div class="container-modal">
+      <div class="inner-container">
+      <div class = "main-container-head">
+      <h2 class="project-head-1">Tonic</h2>
+      <img class = "popup-cross" src="data:," alt="X">
+      </div>
+      <div class="main-container-body">
+        <img class="canopy-img-1" src="data:," alt="frame"> <br> 
+        <img class = "main-project-img-mobile" src="data:," alt="main-img"> <br> <br>
+        <p class="popup-mobile-pro1-para"></p> <br>
+           <img class= "skillset-mobile-popup-img" src="./images/Tags.svg" alt="">
+      </div>
+      <div class="popup-button-container">
+      <button onclick="window.location.href = 'https:shubh-dev.github.io/portfolio-setup/';" type="button" class="project-popup-button-1"> See Live  <img class="button-icon-live" src="data:," alt=""></button>
+      <button onclick="window.location.href = 'https:github.com/Shubh-Dev';" type="button" class="project-popup-button-2"> See Source <img class="button-icon-git" src="data:," alt=""></button>
+    </div>
+    </div>
+  </div>
+  <div class="container-desktop-modal">
+    <div class="inner-desktop-container">
+      <div class="main-desktop-head-container">
+        <h3 class="desktop-popup-main-head">Tonic</h3>
+        <img class = "popup-cross-desktop" src="data:," alt="X">
+      </div>
+      <div class="main-container-body-desktop">
+        <img class = "skill-list-img" src="data:," alt="frame"> <br>
+        <img class="desktop-main-img-popup" src="data:," alt="main-img"><br> <br>
+        <div class="flex-container-desktop">
+          <div class="para-container-desktop-popup">
+            <p class="popUpWindowPara"></p>
+            </div>
+            <div class="side-bar">
+              <div class="skill-tag-img-container">
+                <img class="desktop-aside-skill-icon-1" src="data:," alt="img">
+                <img class="desktop-aside-skill-icon-2" src="data:," alt="img">
+              </div>
+              <div class="button-desktop-popup-flex">
+                <button onclick="window.location.href = 'https:shubh-dev.github.io/portfolio-setup/';" type="button" class="btp-1">See Live <img class="popup-img-live-1" src="data:," alt=""></button>
+                <button onclick="window.location.href = 'https:github.com/Shubh-Dev';" type="button" class="btp-2">See Source <img class="popup-img-live-2" src="data:," alt=""></button>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

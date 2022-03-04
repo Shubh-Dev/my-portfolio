@@ -242,6 +242,7 @@ button:hover {
 .form {
   width: 100%;
   margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .form ul {
@@ -279,7 +280,7 @@ input[type=submit] {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  margin-bottom: 32px;
+  margin-bottom: 0;
 }
 
 input[type=submit]:hover {
@@ -287,15 +288,65 @@ input[type=submit]:hover {
   color: #fff;
 }
 
-.line-1 img {
+.container-modal {
+  display: none;
+}
+
+.container-modal.active {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  background-color: lightgrey;
   margin: auto;
-  padding-left: 120px;
+  position: fixed;
+}
+
+.inner-container {
+  width: 89%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+  margin: auto;
+  background-color: #fff;
+  margin-top: 5vh;
+  padding: 5vh 10px 5vh 10px;
+}
+
+.main-container-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-desktop-modal {
+  display: none;
+}
+
+#error-mes {
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Inter, sans-serif;
+  margin-top: -60px;
+  width: 100%;
 }
 
 @media (min-width: 922px) {
   .main-nav {
     visibility: visible;
     float: right;
+  }
+
+  .container-modal.active {
+    display: none;
   }
 
   nav ul li {
@@ -424,5 +475,81 @@ input[type=submit]:hover {
 
   #form-instruction:hover {
     transform: translate(10px);
+  }
+
+  .main-desktop-head-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-container-body-desktop {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-container-desktop {
+    display: flex;
+    gap: 20px;
+  }
+
+  .side-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .button-desktop-popup-flex {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .container-desktop-modal {
+    display: none;
+  }
+
+  .container-desktop-modal.active {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    top: 0;
+    right: 0;
+    position: fixed;
+  }
+
+  .inner-desktop-container {
+    width: 94%;
+    height: 96%;
+    background: #fff;
+    padding: 6vh 7vw 0 3vw;
+    margin-top: -20px;
+  }
+
+  .skill-list-img {
+    width: 15vw;
+    height: auto;
+  }
+
+  .skill-tag-img-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .para-container-desktop-popup {
+    width: 65%;
+  }
+
+  .popup-cross-desktop {
+    cursor: pointer;
+  }
+
+  .btp-1 {
+    width: 15vw;
+  }
+
+  .btp-2 {
+    width: 15vw;
   }
 }
