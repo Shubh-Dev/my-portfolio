@@ -17,6 +17,7 @@ body {
   position: absolute;
   top: 40px;
   right: 20px;
+  cursor: pointer;
 }
 
 .hamburger.active {
@@ -195,6 +196,7 @@ button:hover {
 
 .button-2 {
   margin-top: 25px;
+  cursor: pointer;
 }
 
 .contact-main {
@@ -337,6 +339,33 @@ input[type=submit]:hover {
   font-family: Inter, sans-serif;
   margin-top: -60px;
   width: 100%;
+}
+
+/* the resume popup created in jS */
+
+#division-resumeWin {
+  margin: auto;
+}
+
+.division-resumeWin {
+  display: none;
+}
+
+.popResume.active {
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 90%;
+  position: fixed;
+  background-color: #79f798;
+  top: 0;
+  right: 0;
+  opacity: 0.9;
+}
+
+.popUpResumeHeadline {
+  color: red;
+  padding-top: 20px;
 }
 
 @media (min-width: 922px) {
