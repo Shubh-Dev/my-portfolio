@@ -366,6 +366,11 @@ input[type=submit]:hover {
 .popUpResumeHeadline {
   color: red;
   padding-top: 20px;
+  padding-left: 15px;
+}
+
+.popResumeCrossbutton {
+  float: right;
 }
 
 @media (min-width: 922px) {
