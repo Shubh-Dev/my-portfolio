@@ -22,10 +22,10 @@ cancel.addEventListener('click', () => {
 const data = [
 
   {
-    title: 'Tonic',
-    name: 'Canopy',
-    position: 'Back End Dev',
-    year: 2020,
+    title: 'To-Do-List app',
+    name: 'task management tool',
+    position: 'Front-End Developer',
+    year: 2022,
     description: `javaScript Program to Extract Given Property Values from Objects as Array accusamus error perspiciatis est 
              nesciunt. Repellendus ullam deleniti dolorem aliquam dicta.
              orem ipsum dolor sit amet consectetur, adipisicing elit. Non, nemo molestias officiis laborum 

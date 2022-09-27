@@ -124,6 +124,8 @@ header {
 
 .logo {
   margin-left: 29px;
+  width: 8.5vw;
+  height: auto;
 }
 
 #nav-links {
