@@ -1,7 +1,20 @@
 .purple-btn {
-    border-radius: 8px;
-    background: #ebebff;
-    color: #6070ff;
-    font-size: 15px;
-    padding: 1px 10px; 
+  border-radius: 8px;
+  background: #ebebff;
+  color: #6070ff;
+  font-size: 15px;
+  padding: 1px 10px;
+}
+
+.tech-logo {
+  width: 70px;
+  height: 70px;
+  background-color: #fbf7f7;
+}
+
+.tech-logo-holder {
+  padding: 12px 18px;
+  height: 120px;
+  background-color: #fbf7f7;
+  border-radius: 8px;
 }
