@@ -22,24 +22,24 @@ cancel.addEventListener('click', () => {
 const data = [
 
   {
-    title: 'To-Do-List app',
-    name: 'task management tool',
+    title: 'A React calculator app',
+    name: 'Math Magicians',
     position: 'Front-End Developer',
     year: 2022,
-    description: `javaScript Program to Extract Given Property Values from Objects as Array accusamus error perspiciatis est 
-             nesciunt. Repellendus ullam deleniti dolorem aliquam dicta.
-             orem ipsum dolor sit amet consectetur, adipisicing elit. Non, nemo molestias officiis laborum 
-             nisi, nulla magni aspernatur itaque natus dolorem suscipit accusamus error perspiciatis est 
-             nesciunt. Repellendus ullam deleniti dolorem aliquam dicta.1`,
+    description: `Math Magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to
+                  make simple calculations and read a random math-related quote. It is built with React and
+                  deployed to Netlify.`,
 
   },
 
   {
-    title: 'Corona Info Tracker',
-    name: 'Corona Info Tracker',
+    title: 'Appoint Booking App',
+    name: 'Dream Rent',
     position: 'Full Stack Dev',
     year: 2022,
-    description: `his is react app that allows users to get get information of Covid-19 disease from all over the world .`,
+    description: `Dream Rent is an appoinment booking app that allows users to book appointments with house owners
+                  to visit their houses and make a decision on whether to rent or not. It is a full stack app built with
+                  React, Redux, Ruby on Rails and PostgresSQL.`,
   },
 
   {
@@ -93,7 +93,7 @@ firstproject.addEventListener('click', () => {
   position.innerHTML = data[0].position;
   year.innerHTML = data[0].year;
   description.innerHTML = data[0].description;
-  image.src = 'media/merged-img.png';
+  image.src = 'media/merge-math.png';
 });
 
 secondproject.addEventListener('click', () => {
@@ -104,7 +104,7 @@ secondproject.addEventListener('click', () => {
   position.innerHTML = data[1].position;
   year.innerHTML = data[1].year;
   description.innerHTML = data[1].description;
-  image.src = 'media/SnapshootPortfolio2.png';
+  image.src = 'media/merge-rent.png';
 });
 
 thirdproject.addEventListener('click', () => {
@@ -115,7 +115,7 @@ thirdproject.addEventListener('click', () => {
   position.innerHTML = data[2].position;
   year.innerHTML = data[2].year;
   description.innerHTML = data[2].description;
-  image.src = 'media/picture3.png';
+  image.src = 'media/merge-corona.png';
 });
 
 fourthproject.addEventListener('click', () => {
@@ -126,7 +126,7 @@ fourthproject.addEventListener('click', () => {
   position.innerHTML = data[3].position;
   year.innerHTML = data[3].year;
   description.innerHTML = data[3].description;
-  image.src = 'media/SnapshootPortfolio4.png';
+  image.src = 'media/merge-space.png';
 });
 
 exit.addEventListener('click', () => {
