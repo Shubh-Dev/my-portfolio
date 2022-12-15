@@ -35,15 +35,11 @@ const data = [
   },
 
   {
-    title: 'Multi-Post Stories',
-    name: 'FACEBOOK',
+    title: 'Corona Info Tracker',
+    name: 'Corona Info Tracker',
     position: 'Full Stack Dev',
-    year: 2021,
-    description: `javaScript Program to Extract Given Property Values from Objects as Array accusamus error perspiciatis est 
-             nesciunt. Repellendus ullam deleniti dolorem aliquam dicta.
-             orem ipsum dolor sit amet consectetur, adipisicing elit. Non, nemo molestias officiis laborum 
-             nisi, nulla magni aspernatur itaque natus dolorem suscipit accusamus error perspiciatis est 
-             nesciunt. Repellendus ullam deleniti dolorem aliquam dicta.2`,
+    year: 2022,
+    description: `his is react app that allows users to get get information of Covid-19 disease from all over the world .`,
   },
 
   {
