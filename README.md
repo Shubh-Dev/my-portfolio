@@ -63,5 +63,6 @@ This Project is an initial experiment of creating an excellent personal portfoli
 ## Author- 
 Shubh M Das </br>
 Github - https://github.com/Shubh-Dev
+[Linkedin] (https://www.linkedin.com/in/shubhscb/)
 
 
